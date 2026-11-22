@@ -1,0 +1,16 @@
+From: Sender <person@example.net>
+Authentication-Results: mx; spf=pass; dkim=pass; dmarc=pass
+Subject: Attachment URL should be ignored
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="links-boundary"
+
+--links-boundary
+Content-Type: text/plain; charset=utf-8
+
+Read https://safe.example.net/info
+--links-boundary
+Content-Type: text/plain; name="note.txt"
+Content-Disposition: attachment; filename="note.txt"
+
+https://evil.example.net/attachment-only
+--links-boundary--

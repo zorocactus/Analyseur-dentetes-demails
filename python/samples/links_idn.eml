@@ -1,0 +1,5 @@
+From: Sender <person@example.net>
+Authentication-Results: mx; spf=pass; dkim=pass; dmarc=pass
+Subject: Punycode link
+
+Open https://xn--pple-43d.com/login

@@ -1,0 +1,6 @@
+From: Sender <person@example.net>
+Authentication-Results: mx; spf=pass; dkim=pass; dmarc=pass
+Subject: Tracking pixel
+Content-Type: text/html; charset=utf-8
+
+<img src="https://pixel.example.net/open.gif" width="1" height="1" alt="">

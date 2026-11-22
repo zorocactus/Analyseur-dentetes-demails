@@ -1,0 +1,6 @@
+Received: from mailer.example.net (HELO mailer.example.net [8.8.8.8]) by mx.example.net; Fri, 20 Nov 2026 09:00:00 +0000
+From: Sender <person@customer.example.com>
+Authentication-Results: mx.example.net; spf=pass; dkim=pass; dmarc=pass
+Subject: HELO mismatch
+
+Sample for the first-hop HELO and sender-domain mismatch rule.

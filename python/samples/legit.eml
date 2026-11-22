@@ -1,0 +1,11 @@
+Return-Path: <noreply@github.com>
+Received: from mx-internal.example.org (mx-internal.example.org [10.0.0.5]) by mx.example.org; Fri, 20 Nov 2026 09:00:02 +0000
+Received: from github.com (HELO github.com [140.82.112.3]) by mx-internal.example.org; Fri, 20 Nov 2026 09:00:01 +0000
+Authentication-Results: mx.example.org; spf=pass smtp.mailfrom=github.com; dkim=pass header.d=github.com; dmarc=pass header.from=github.com
+From: GitHub <noreply@github.com>
+To: iwan@example.org
+Subject: [GitHub] A new SSH key was added to your account
+Message-ID: <abc123@github.com>
+Date: Fri, 20 Nov 2026 09:00:00 +0000
+
+Hi, a new SSH key was added.

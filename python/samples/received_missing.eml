@@ -1,0 +1,5 @@
+From: Sender <person@example.net>
+Authentication-Results: mx.example.net; spf=pass; dkim=pass; dmarc=pass
+Subject: Missing trace
+
+This sample intentionally has no Received headers.

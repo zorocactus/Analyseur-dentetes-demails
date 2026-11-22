@@ -1,0 +1,11 @@
+Return-Path: <bounce@mailer-x9.ru>
+Received: from unknown (HELO mailer-x9.ru) (185.220.101.5) by mx.example.org
+Authentication-Results: mx.example.org; spf=fail smtp.mailfrom=mailer-x9.ru; dkim=none; dmarc=fail header.from=paypa1-secure.com
+From: "PayPal Support" <service@paypa1-secure.com>
+Reply-To: help.desk.4421@gmail.com
+To: victime@example.org
+Subject: Urgent: verify your account - compte suspendu
+Message-ID: <20261120.8841@mailer-x9.ru>
+Date: Fri, 20 Nov 2026 08:12:00 +0000
+
+Cliquez ici pour verifier votre compte.

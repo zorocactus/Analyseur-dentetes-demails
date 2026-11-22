@@ -1,0 +1,5 @@
+From: Sender <person@example.net>
+Authentication-Results: mx; spf=pass; dkim=pass; dmarc=pass
+Subject: Raw IP link
+
+Continue at https://192.0.2.10/login

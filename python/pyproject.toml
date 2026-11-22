@@ -1,0 +1,21 @@
+[project]
+name = "email-header-analyzer"
+version = "0.1.0"
+description = "Détecte les signes de phishing dans les en-têtes d'emails (SPF/DKIM/DMARC, Reply-To, domaines lookalike)"
+requires-python = ">=3.9"
+readme = "README.md"
+license = { text = "MIT" }
+
+[project.scripts]
+email-header-analyzer = "header_analyzer.cli:main"
+
+[project.optional-dependencies]
+dns = ["dnspython>=2.4"]
+geoip = ["geoip2>=4.8"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["header_analyzer"]

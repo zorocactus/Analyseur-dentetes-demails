@@ -1,0 +1,6 @@
+From: Sender <person@example.net>
+Authentication-Results: mx; spf=pass; dkim=pass; dmarc=pass
+DKIM-Signature: v=1; a=rsa-sha256; d=example.net; s=selector1; bh=x; b=y
+Subject: Missing DKIM key
+
+Email used to test a missing selector record.

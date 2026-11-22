@@ -1,0 +1,16 @@
+Received: from hop11.example.net (HELO hop11.example.net [8.8.8.8]) by mx.example.net; Fri, 20 Nov 2026 09:10:00 +0000
+Received: from hop10.example.net (HELO hop10.example.net [8.8.8.8]) by hop11.example.net; Fri, 20 Nov 2026 09:09:00 +0000
+Received: from hop9.example.net (HELO hop9.example.net [8.8.8.8]) by hop10.example.net; Fri, 20 Nov 2026 09:08:00 +0000
+Received: from hop8.example.net (HELO hop8.example.net [8.8.8.8]) by hop9.example.net; Fri, 20 Nov 2026 09:07:00 +0000
+Received: from hop7.example.net (HELO hop7.example.net [8.8.8.8]) by hop8.example.net; Fri, 20 Nov 2026 09:06:00 +0000
+Received: from hop6.example.net (HELO hop6.example.net [8.8.8.8]) by hop7.example.net; Fri, 20 Nov 2026 09:05:00 +0000
+Received: from hop5.example.net (HELO hop5.example.net [8.8.8.8]) by hop6.example.net; Fri, 20 Nov 2026 09:04:00 +0000
+Received: from hop4.example.net (HELO hop4.example.net [8.8.8.8]) by hop5.example.net; Fri, 20 Nov 2026 09:03:00 +0000
+Received: from hop3.example.net (HELO hop3.example.net [8.8.8.8]) by hop4.example.net; Fri, 20 Nov 2026 09:02:00 +0000
+Received: from hop2.example.net (HELO hop2.example.net [8.8.8.8]) by hop3.example.net; Fri, 20 Nov 2026 09:01:00 +0000
+Received: from hop1.example.com (HELO hop1.example.com [8.8.8.8]) by hop2.example.net; Fri, 20 Nov 2026 09:00:00 +0000
+From: Sender <person@example.com>
+Authentication-Results: mx.example.net; spf=pass; dkim=pass; dmarc=pass
+Subject: Long Received chain
+
+Sample with eleven Received headers.

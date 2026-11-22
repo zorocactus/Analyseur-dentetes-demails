@@ -1,0 +1,15 @@
+From: Sender <person@example.net>
+Authentication-Results: mx; spf=pass; dkim=pass; dmarc=pass
+Subject: Multiple link indicators
+Content-Type: text/html; charset=utf-8
+
+<a href="https://evil.example/login">https://paypal.com</a>
+<a href="https://192.0.2.10/login">IP</a>
+<a href="https://paypal.com@evil.example/login">Userinfo</a>
+<a href="javascript:alert(1)">JavaScript</a>
+<a href="http://example.net/login">HTTP</a>
+<a href="https://micosoft.com/login">Lookalike</a>
+<a href="https://bit.ly/abcd12">Shortener</a>
+<a href="https://xn--pple-43d.com/login">IDN</a>
+<a href="https://a.b.c.d.e.example.net/login">Nested</a>
+<img src="https://pixel.example.net/open.gif" width="1" height="1" alt="">

@@ -1,0 +1,7 @@
+Received: from relay.example.net (HELO relay.example.net [8.8.8.8]) by mx.example.net; Fri, 20 Nov 2026 08:00:00 +0000
+Received: from sender.example.net (HELO sender.example.net [8.8.4.4]) by relay.example.net; Fri, 20 Nov 2026 08:10:00 +0000
+From: Sender <person@example.net>
+Authentication-Results: mx.example.net; spf=pass; dkim=pass; dmarc=pass
+Subject: Backwards Received dates
+
+Sample for the reversed timestamp rule.

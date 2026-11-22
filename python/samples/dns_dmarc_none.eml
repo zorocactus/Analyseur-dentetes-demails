@@ -1,0 +1,5 @@
+From: Sender <person@example.net>
+Authentication-Results: mx; spf=pass; dkim=pass; dmarc=pass
+Subject: DMARC monitoring-only policy
+
+Email used to test the DMARC p=none policy.

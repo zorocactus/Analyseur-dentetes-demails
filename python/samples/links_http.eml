@@ -1,0 +1,5 @@
+From: Sender <person@example.net>
+Authentication-Results: mx; spf=pass; dkim=pass; dmarc=pass
+Subject: Plain HTTP link
+
+Open http://example.net/login

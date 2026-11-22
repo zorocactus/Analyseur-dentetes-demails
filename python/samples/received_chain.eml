@@ -1,0 +1,7 @@
+Received: from relay.example.net (HELO relay.example.net [8.8.8.8]) by mx.example.net; Fri, 20 Nov 2026 09:00:00 +0000
+Received: from github.com (HELO github.com [140.82.112.3]) by relay.example.net; Fri, 20 Nov 2026 08:55:00 +0000
+From: GitHub <noreply@github.com>
+Authentication-Results: mx.example.net; spf=pass smtp.mailfrom=github.com; dkim=pass header.d=github.com; dmarc=pass header.from=github.com
+Subject: Valid Received chain
+
+Sample with a normally ordered two-hop route.

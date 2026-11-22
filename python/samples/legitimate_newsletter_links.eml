@@ -1,0 +1,23 @@
+Return-Path: <bounce@service.example.net>
+Received: from service.example.net (HELO service.example.net [8.8.8.8]) by mx.example.net; Fri, 20 Nov 2026 09:00:00 +0000
+Authentication-Results: mx.example.net; spf=pass smtp.mailfrom=service.example.net; dkim=pass header.d=service.example.net; dmarc=pass header.from=service.example.net
+From: Weekly Updates <news@service.example.net>
+Reply-To: help@service.example.net
+To: reader@example.org
+Subject: Your weekly update
+Message-ID: <weekly-1@service.example.net>
+MIME-Version: 1.0
+Content-Type: text/html; charset=utf-8
+
+<p>Here are this week's stories:</p>
+<a href="https://shop.example.com/story/1">Read story one</a>
+<a href="https://shop.example.com/story/2">Read story two</a>
+<a href="https://shop.example.com/story/3">Read story three</a>
+<a href="https://shop.example.com/story/4">Read story four</a>
+<a href="https://shop.example.com/story/5">Read story five</a>
+<a href="https://shop.example.com/story/6">Read story six</a>
+<a href="https://shop.example.com/story/7">Read story seven</a>
+<a href="https://shop.example.com/story/8">Read story eight</a>
+<a href="https://shop.example.com/story/9">Read story nine</a>
+<a href="https://shop.example.com/story/10">Read story ten</a>
+<img src="https://pixel.service.example.net/open.gif" width="1" height="1" alt="">

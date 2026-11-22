@@ -1,0 +1,5 @@
+From: Sender <person@nonexistent.invalid>
+Authentication-Results: mx; spf=pass; dkim=pass; dmarc=pass
+Subject: Nonexistent sender domain
+
+Email used to test an injected NXDOMAIN status.

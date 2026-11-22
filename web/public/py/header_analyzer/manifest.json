@@ -1,0 +1,9 @@
+{
+  "files": [
+    "__init__.py",
+    "analyzer.py",
+    "received.py",
+    "links.py",
+    "dns_checks.py"
+  ]
+}
